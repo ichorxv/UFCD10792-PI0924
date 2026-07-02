@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "RentMotas.Controllers.RentController",
+    "Method": "GetRentMotas",
+    "RelativePath": "Rent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RentMotas.Controllers.RentController",
+    "Method": "PostReservas",
+    "RelativePath": "Rent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rent",
+        "Type": "RentMotas.Model.RentRequests",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "HotelKikas.Controllers.ReservasController",
+    "Method": "GetReservas",
+    "RelativePath": "Reservas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelKikas.Controllers.ReservasController",
+    "Method": "PostReservas",
+    "RelativePath": "Reservas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotel",
+        "Type": "HotelKikas.Model.ReservasRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

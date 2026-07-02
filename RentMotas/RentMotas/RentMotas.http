@@ -1,0 +1,6 @@
+@RentMotas_HostAddress = http://localhost:5145
+
+GET {{RentMotas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
